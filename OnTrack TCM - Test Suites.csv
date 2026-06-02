@@ -1,0 +1,44 @@
+Test Cases,TEST CASE ID,Sample Summary
+General Testing,,
+  Signin Testing,,
+    Login Testing - Valid credentilas,AUTH-001,Verify that user was able to log in successfully.
+    Login Testing - Viewer,AUTH-002,Verify that user was able to log in as a viewer
+    Login Testing - Project manager,AUTH-003,Verify that user was able to log in as a project manager
+    Login Testing - Admin,AUTH-004,Verify that user was able to log in as a admin
+  Logout Testing,,
+    Logout Testing,LOGT-001,Verify that user was able to log out successfully.
+  Forgot Password Testing,,
+    Forgot Password Testing,FPAS-001,Verify that user was able to change password.
+  Profile Testing,,
+    Profile Testing - Add Profile Picture,PROF-001,Verify that profile picture was added successfully.
+    Profile Testing - Change Profile Picture,PROF-002,Verify that profile picture was changed successfully.
+    Profile Testing - Change Full Name,PROF-003,Verify that full name was changed successfully.
+    Profile Testing - Change Username,PROF-004,Verify that username was changed successfully.
+  Report Testing,,
+    Report Testing - Valid Input,REPT-001,Verify that reports were successfully uploaded.
+    Report Testing - Invalid Input,REPT-002,Verify that reports were unsuccessfully uploaded.
+Admin Testing,,
+  User Management Testing,,
+    User Testing - Search  User,USER-001,Verify that search shows correct output.
+    User Testing - Promote User to Project Manager,USER-002,Verify that user is promoted as project manager.
+    User Testing - Demote User to Viewer,USER-003,Verify that user is demoted as standard viewer.
+    User Testing - Remove User,USER-004,Verify that user is removed from the system.
+    User Testing - Viewer User Logs,USER-005,Verify that the system shows correct viewer logs.
+  Term Management Testing,,
+    Term Testing - Add Term,TERM-001,Verify that user adds new term successfully.
+    Term Testing - Search Term,TERM-002,Verify that user was able to search a term successfully.
+    Term Testing - Search Term with Filter,TERM-003,Verify that user was able to search a term using filter successfully.
+    Term Testing - Add PM/Officer to a Term,TERM-004,Verify that user was able to add project manager/officer to a term.
+    Term Testing - Remove PM/Officer from a Term,TERM-005,Verify that user was able to remove project manager/officer to a term.
+  Content Moderation Testing,,
+    Content Moderation Testing - Hide Comment,CMOD-001,Verify that user was able to hide comment/s successfully.
+    Content Moderation Testing - Search Comment,CMOD-002,Verify that user was able to search comment/s successfully.
+  Activity Log Testing,,
+    Activity Log Testing - Search Log,ACTL-001,Verify that user was able to search log/s successfully.
+    Activity Log Testing - Search Log with Filter,ACTL-002,Verify that user was able to search log/s using filter successfully.
+  Platform Setting Testing,,
+    Platform Setting Testing - Office Information,PLAT-001,Verify that office informations changed successfully.
+    Platform Setting Testing - Social Presence,PLAT-002,Verify that social presence informations changed successfully.
+    Platform Setting Testing - Privacy Policy,PLAT-003,Verify that privacy policy changed successfully.
+    Platform Setting Testing - Terms and Conditions,PLAT-004,Verify that terms and conditionschanged successfully.
+    Platform Setting Testing - Cookie Policy,PLAT-005,Verify that cookie policy changed successfully.
