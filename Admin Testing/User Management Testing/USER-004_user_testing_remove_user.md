@@ -2,18 +2,22 @@
 
 > **Summary:** Verify that user is removed from the system.  <br>
 
-**Preconditions:** _None_  
+**Preconditions:**
+- Device must be connected to the internet
+- User must be logged in as `Admin` 
 
 Scenario 1 
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 |      | Verify that ...   | 
- |  2 |      | Verify that ...   | 
- |  3 |      | Verify that ...   |  
+ |  1 |Log in as `Admin` using these credentials: (email: 22-1-02276@vsu.edu.ph ; password: password8086)      | Verify that the user is successfully logged in as Admin | 
+ |  2 |Click `User Management` on the navigation bar     | Verify that the user is redirected to the `User Management` page   | 
+ |  3 |Enter "Marylle" on the `Search` bar on the right side of the page      | Verify that the user being searched appears on the user table   |
+ |  4 |Click on the Kebab Menu (three vertical dots) at the `Actions` column to open action options      | Verify that the action options appear (Promote to PM, View Activity Logs, and Remove User)  | 
+ |  5 |Click `Remove User` option      | Verify that a confirmation dialouge appears on the screen | 
+ |  6 |Click `Confirm` button      | Verify that the `Confirm` button changed in to "processing" with loading animation   | 
+ |  7 |Wait until the processing animation finishes | Verify that the user has been deleted successfully|
 
 **Post-conditions:**  
 
- - x  
- - y  
- - z  
+ - User has been deleted in the Supabase
