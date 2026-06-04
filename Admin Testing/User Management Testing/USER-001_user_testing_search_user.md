@@ -4,6 +4,7 @@
 
 **Preconditions:** 
 - Device must be connected to the internet
+- At least one `Viewer` user type exists in the system.
 - User must be logged in as `Admin` 
 
 Scenario 1 

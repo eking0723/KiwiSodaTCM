@@ -4,6 +4,7 @@
 
 **Preconditions:** 
 - Device must be connected to the internet
+- At least on other user exists in the system.
 - User must be logged in as `Admin` 
 
 Scenario 1 
