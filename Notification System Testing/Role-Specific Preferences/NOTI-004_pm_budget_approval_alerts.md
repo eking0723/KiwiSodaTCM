@@ -2,18 +2,17 @@
 
 > **Summary:** Verify PM receives alerts for team member budget requests when enabled.  <br>
 
-**Preconditions:** _None_  
+**Preconditions:** 
+- User is logged in as Project Manager.
+- User is on the `Settings` page.
 
-Scenario 1 
+Scenario 1: Toggling budget alerts
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 |      | Verify that ...   | 
- |  2 |      | Verify that ...   | 
- |  3 |      | Verify that ...   |  
+ |  1 | Locate the `Project Management Preferences` section | Verify that `Budget Approval Alerts` toggle is visible. | 
+ |  2 | Click the toggle to enable/disable the preference | Verify the UI reflects the change. | 
+ |  3 | Click `Save Changes` | Verify the preference is saved in the `profiles` table under `budget_alerts`. | 
 
 **Post-conditions:**  
-
- - x  
- - y  
- - z  
+ - The `NotificationDispatcher` checks `budget_alerts` preference before sending relevant notifications.
