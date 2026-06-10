@@ -10,7 +10,7 @@ Scenario 1
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 |Log in as `Admin` using these credentials: (email: 22-1-02276@vsu.edu.ph ; password: password8086)      | Verify that the user is successfully logged in as Admin | 
+ |  1 |Log in as `Admin` using these credentials: (email: 22-1-02276@vsu.edu.ph ; password: 12345678)      | Verify that the user is successfully logged in as Admin | 
  |  2 |Click `Content Moderation` on the navigation bar     | Verify that the user is redirected to the `Content Moderation` page   |
  |  3 |Enter `Euler` in the search bar      | Verify that that the user being searched instantly appears in the table   |
 
