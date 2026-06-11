@@ -1,19 +1,22 @@
-## **PJBU-001:** Budget Allocation - Initial  
+## **PJBU-001:** Budget Allocation - Initial
 
-> **Summary:** Verify initial budget set during project creation.  <br>
+> **Summary:** Verify initial budget set during project creation.  `<br>`
 
-**Preconditions:** _None_  
+**Preconditions:** 
 
-Scenario 1 
+* User is logged in as Project Manager
 
- | \# | Step | Expected Behavior | 
- |----|------|-------------------| 
- |  1 |      | Verify that ...   | 
- |  2 |      | Verify that ...   | 
- |  3 |      | Verify that ...   |  
+Scenario 1
 
-**Post-conditions:**  
+| \# | Step                                              | Expected Behavior                                                           |
+| -- | ------------------------------------------------- | --------------------------------------------------------------------------- |
+| 1  | Navigate to the Projects and create a new Project | The create Project form is displayed successfully                           |
+| 2  | Enter a valid Project name                        | The project name is accepted without validation errors                      |
+| 3  | Input an initial budget amount                    | The budget value is accepted and displayed correctly in the input field     |
+| 4  | Complete all required project fields              | All required fields accept valid input and not validation errors are shown  |
+| 5  | Click Create Project                              | The project is created successfully and a confirmation message is displayed |
 
- - x  
- - y  
- - z  
+**Post-conditions:**
+
+- The project is created successfully with an initial input budget.
+- The budget information is displayed correctly in the projects card and budget management page.

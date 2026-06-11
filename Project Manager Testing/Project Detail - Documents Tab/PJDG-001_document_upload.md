@@ -1,19 +1,23 @@
-## **PJDG-001:** Document Upload  
+## **PJDG-001:** Document Upload
 
-> **Summary:** Verify uploading project-related documents/files to Supabase Storage.  <br>
+> **Summary:** Verify uploading project-related documents/files to Supabase Storage.  `<br>`
 
-**Preconditions:** _None_  
+**Preconditions:** 
 
-Scenario 1 
+* User is logged as project manager
+* A project exists in the system
 
- | \# | Step | Expected Behavior | 
- |----|------|-------------------| 
- |  1 |      | Verify that ...   | 
- |  2 |      | Verify that ...   | 
- |  3 |      | Verify that ...   |  
+Scenario 1
 
-**Post-conditions:**  
+| \# | Step                                                      | Expected Behavior                                                                  |
+| -- | --------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 1  | Navigate to the target project's Documents page.          | The Documents page loads successfully and displays existing project files, if any. |
+| 2  | Click the "Upload File"button.                            | The file selection dialog is displayed.                                            |
+| 3  | Select a valid file and Click the "Confirm Upload" button | The selected file is accepted and displayed in the upload form and accepted        |
+| 4  | View the project document list.                           | The uploaded document appears in the list with the correct file name and metadata. |
 
- - x  
- - y  
- - z  
+**Post-conditions:**
+
+- x
+- y
+- z
